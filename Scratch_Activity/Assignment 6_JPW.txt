@@ -1,0 +1,34 @@
+Paul Wicklund
+Paul.wicklund@me.com
+Assignment #6
+
+Link to Game: https://scratch.mit.edu/projects/122177156/ 
+
+Outline
+
+What are the rules of the game?
+* The game will be a flying cat which can catch or shoot mice.
+* The mice will fly from right to left
+* The cat will stay on the left side of the screen and will only move up and down.
+* There will be buildings that scroll by and the cat must also fly above them without touching.
+* You can score two points by touching the mice or one point by shooting them.
+* You will have a total of 3 chances. If you miss a mouse or hit a building you will lose one chance.  Once all three chances are gone then the game is over.
+
+How does that translate into code?
+* There will need to be a code that controls the cat which allows it to move up and down.
+* There will need to be a code that allows a laser to be shot from the cat and moves from left to right.
+* There will need to be a code which randomly starts mice at a position on the right side of the screen and has them fly from right to left.
+* There will need to be a code which has buildings start on the right side of the screen and has them scroll from right to left to give the appearance of motion.
+* There will need to be code which deducts points when a building is touched or when a mouse makes it all the way across the screen.
+* There will need to be a code which makes the mouse disappear when it is touched by the laser or the cat. This will also generate 1 or 2 points respectively.
+
+Will we need to use loops? if/else statements?
+* There will need to be loops which keep generating more mice, buildings, and lasers.
+
+What variables will we need?
+* Remaining chances
+* score
+
+Under what circumstances will our variables change?
+* Remaining chances will reduce from 3 to 0 when either a building is touched or a mouse makes it all the way across the screen.
+* Points will increase when either a mouse is touched by the laser or by the cat. 1 point for touch by laser, 2 points for touch by cat.
